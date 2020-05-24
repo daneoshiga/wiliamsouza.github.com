@@ -33,6 +33,7 @@ github_username:  wiliamsouza
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-analytics
 
 feed:
   categories:
@@ -46,7 +47,10 @@ feed:
 show_excerpts: true
 
 # Enable google analytics
-google_analytics: UA-166876770-1
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-166876770-1
+    anonymizeIp: false
 
 header_pages:
   - about.markdown
